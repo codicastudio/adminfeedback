@@ -1,0 +1,37 @@
+{
+    "name": "codicastudio/adminfeedback",
+    "description": "A random Codica Studio package.",
+    "keywords": [
+        ""
+    ],
+    "homepage": "https://github.com/codicastudio/adminfeedback",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mydnic\\NovaKustomer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mydnic\\NovaKustomer\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
