@@ -1,10 +1,10 @@
 {
-    "name": "codicastudio/adminfeedback",
+    "name": "codica-studio/adminfeedback",
     "description": "A random Codica Studio package.",
     "keywords": [
         ""
     ],
-    "homepage": "https://github.com/codicastudio/adminfeedback",
+    "homepage": "https://github.com/codica-studio/adminfeedback",
     "license": "MIT",
     "authors": [
         {
